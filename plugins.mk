@@ -16,9 +16,9 @@ HEXER_URL ?= https://github.com/inaka/hexer/raw/stable/bin/hexer
 
 help::
 	$(verbose) printf "%s\n" "" \
-		"Hexer targets:" \
+		"hexer.mk targets:" \
 		"  hex-register   Register a new user using an valid email" \
-		"  hex-auth       Generate a new API key with existing user and password"
+		"  hex-auth       Generate a new API key with existing user and password" \
 		"  hex-publish    Publish current project in hex.pm"
 
 distclean:: distclean-hexer
