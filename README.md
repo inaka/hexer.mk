@@ -8,7 +8,7 @@ In order to include this plugin in your project you just need to add the
 following in your Makefile:
 
 ```make
-PLUGIN_DEPS = hexer_mk
+BUILD_DEPS = hexer_mk
 
 dep_hexer_mk = git https://github.com/inaka/hexer.mk.git 1.0.0
 
