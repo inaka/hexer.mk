@@ -10,7 +10,7 @@ HEXER_CONFIG ?= $(CURDIR)/hexer.config
 HEXER ?= $(CURDIR)/hexer
 export HEXER
 
-HEXER_URL ?= https://github.com/inaka/hexer/raw/stable/bin/hexer
+HEXER_URL ?= https://github.com/inaka/hexer/releases/download/stable/hexer
 
 # Core targets.
 
