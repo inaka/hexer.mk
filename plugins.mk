@@ -36,7 +36,7 @@ hex-register: $(HEXER)
 hex-auth: $(HEXER)
 	$(verbose) $(HEXER) user.auth
 
-hex-publish: $(HEXER)
+hex-publish: $(HEXER) app
 	$(verbose) $(HEXER) publish
 
 distclean-hexer:

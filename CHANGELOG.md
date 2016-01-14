@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- Version Bump to 1.0.1 [\#11](https://github.com/inaka/hexer.mk/pull/11) ([elbrujohalcon](https://github.com/elbrujohalcon))
 - Updated hexer download url [\#10](https://github.com/inaka/hexer.mk/pull/10) ([davecaos](https://github.com/davecaos))
 - Update README.md [\#8](https://github.com/inaka/hexer.mk/pull/8) ([elbrujohalcon](https://github.com/elbrujohalcon))
 
