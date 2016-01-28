@@ -19,7 +19,8 @@ help::
 		"hexer.mk targets:" \
 		"  hex-register   Register a new user using an valid email" \
 		"  hex-auth       Generate a new API key with existing user and password" \
-		"  hex-publish    Publish current project in hex.pm"
+		"  hex-publish    Publish current project in hex.pm" \
+		"  hex-docs       Publish current project docs in hexdocs.pm"
 
 distclean:: distclean-hexer
 
@@ -38,6 +39,9 @@ hex-auth: $(HEXER)
 
 hex-publish: $(HEXER) app
 	$(verbose) $(HEXER) publish
+
+hex-docs: $(HEXER) edoc
+	$(verbose) $(HEXER) publish.docs
 
 distclean-hexer:
 	$(gen_verbose) rm -rf $(HEXER)
