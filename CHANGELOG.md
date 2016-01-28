@@ -1,5 +1,29 @@
 # Change Log
 
+## [1.1.0](https://github.com/inaka/hexer.mk/tree/1.1.0) (2016-01-28)
+[Full Changelog](https://github.com/inaka/hexer.mk/compare/1.0.2...1.1.0)
+
+**Fixed bugs:**
+
+- Requirements in the wrong format in metadata [\#15](https://github.com/inaka/hexer.mk/issues/15)
+
+**Closed issues:**
+
+- Add make publish-docs command [\#18](https://github.com/inaka/hexer.mk/issues/18)
+- Add a new dependency fetcher called hexpm to replace hex [\#17](https://github.com/inaka/hexer.mk/issues/17)
+
+**Merged pull requests:**
+
+- Update hexer to 0.2.0 [\#14](https://github.com/inaka/hexer.mk/pull/14) ([elbrujohalcon](https://github.com/elbrujohalcon))
+- Update README.md [\#13](https://github.com/inaka/hexer.mk/pull/13) ([elbrujohalcon](https://github.com/elbrujohalcon))
+
+## [1.0.2](https://github.com/inaka/hexer.mk/tree/1.0.2) (2016-01-14)
+[Full Changelog](https://github.com/inaka/hexer.mk/compare/1.0.1...1.0.2)
+
+**Merged pull requests:**
+
+- make hex-publish should depend on app [\#12](https://github.com/inaka/hexer.mk/pull/12) ([elbrujohalcon](https://github.com/elbrujohalcon))
+
 ## [1.0.1](https://github.com/inaka/hexer.mk/tree/1.0.1) (2016-01-08)
 [Full Changelog](https://github.com/inaka/hexer.mk/compare/1.0.0...1.0.1)
 

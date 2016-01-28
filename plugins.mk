@@ -5,6 +5,8 @@
 
 # Configuration.
 
+HEXER_MK_VERSION := 1.1.0
+
 HEXER_CONFIG ?= $(CURDIR)/hexer.config
 
 HEXER ?= $(CURDIR)/hexer
